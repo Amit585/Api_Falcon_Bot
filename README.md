@@ -1,10 +1,10 @@
 # Api_Falcon_Bot
 
-To start the Mock API server
-gunicorn --reload app:app
+To start the Mock API server we will use waitress. use the command:
 
-Default server starts on http://127.0.0.1:8000
+waitress-serve --port=8000 data.routes:api
+
+Default server starts at the port provided.The URL is http://127.0.0.1:8000.
 
 Endpoints Mocked
-/orders/{order_id}
-/tracking/{tracking_id}
+/cancel/{order_id}
