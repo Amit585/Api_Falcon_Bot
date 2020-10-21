@@ -1,4 +1,4 @@
-# Api_Falcon_Bot
+# Python-Falcon-Api-Bot
 
 To start the Mock API server we will use waitress. use the command:
 
